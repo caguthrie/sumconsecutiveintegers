@@ -24,8 +24,8 @@ class SumConIntegers
 
 end
 t = Time.now
-s = SumConIntegers.new(2)
-i = 2
+s = SumConIntegers.new(1)
+i = 1
 while i < 20000
   puts "#{i}: #{s.sum_consecutive_exists?}"
   i += 1
